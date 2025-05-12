@@ -23,7 +23,7 @@ const MovieDetail: React.FC = () => {
   
   // Group showtimes by theater
   const showtimesByTheater = movieShowtimes.reduce((acc, showtime) => {
-    const theater = theaters.find(t => t.theaterId === showtime.theaterId);
+    const theater = theaters.find(t => t.id === showtime.theaterId);
     if (!theater) return acc;
     
     if (!acc[showtime.theaterId]) {
