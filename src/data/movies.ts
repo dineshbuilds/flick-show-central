@@ -71,7 +71,7 @@ export const movies: Movie[] = [
   },
   {
     id: "4",
-    title: "Interstellar",
+    title: "Interstellar (2014)",
     genre: ["Adventure", "Drama", "Sci-Fi"],
     duration: 169,
     rating: 4.9,
