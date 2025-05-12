@@ -7,10 +7,12 @@ import Footer from '../components/Footer';
 
 const Index: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-cinema-background">
       <Navbar />
       <Hero />
-      <MovieGrid />
+      <div className="flex-grow">
+        <MovieGrid />
+      </div>
       <Footer />
     </div>
   );
