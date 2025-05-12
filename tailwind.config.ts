@@ -19,6 +19,12 @@ export default {
 			}
 		},
 		extend: {
+			perspective: {
+				'800': '800px',
+			},
+			rotate: {
+				'x-40': 'rotateX(40deg)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -104,5 +110,18 @@ export default {
 			}
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [
+		require("tailwindcss-animate"),
+		function({ addUtilities }) {
+			const newUtilities = {
+				'.perspective-800': {
+					perspective: '800px',
+				},
+				'.rotateX-40': {
+					transform: 'rotateX(40deg)',
+				},
+			}
+			addUtilities(newUtilities)
+		}
+	],
 } satisfies Config;
