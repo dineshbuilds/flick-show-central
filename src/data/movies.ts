@@ -29,7 +29,7 @@ export const movies: Movie[] = [
     director: "Christopher Nolan",
     cast: ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
     synopsis: "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
-    poster: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    poster: "https://play-lh.googleusercontent.com/mLDU4agwREtETjWAuaGrNicJrHTIB3vbDMkmWKqLqibKDWs9edpLXUbh5s9ks11FA4cy",
     trailer: "https://www.youtube.com/embed/zSWdZVtXT7E",
     prices: {
       standard: 12.99,
@@ -46,7 +46,7 @@ export const movies: Movie[] = [
     director: "Alfonso Cuarón",
     cast: ["Sandra Bullock", "George Clooney", "Ed Harris"],
     synopsis: "Two astronauts work together to survive after an accident leaves them stranded in space.",
-    poster: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    poster: "https://images.justwatch.com/poster/241479855/s718/gravity.jpg",
     trailer: "https://www.youtube.com/embed/OiTiKOy59o4",
     prices: {
       standard: 10.99,
@@ -63,7 +63,7 @@ export const movies: Movie[] = [
     director: "Luc Besson",
     cast: ["Scarlett Johansson", "Morgan Freeman", "Choi Min-sik"],
     synopsis: "A woman, accidentally caught in a dark deal, turns the tables on her captors and transforms into a merciless warrior evolved beyond human logic.",
-    poster: "https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    poster: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10479310_p_v10_ar.jpg",
     trailer: "https://www.youtube.com/embed/6Vu081NOorA",
     prices: {
       standard: 10.99,
