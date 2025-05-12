@@ -80,7 +80,7 @@ export const movies: Movie[] = [
     director: "James Gray",
     cast: ["Brad Pitt", "Tommy Lee Jones", "Ruth Negga"],
     synopsis: "Astronaut Roy McBride undertakes a mission across an unforgiving solar system to uncover the truth about his missing father and his doomed expedition that now, 30 years later, threatens the universe.",
-    poster: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    poster: "https://images.moviesanywhere.com/5c6ef53757853faadc2ca017e8c6da56/c2e95949-76d5-4f09-8ac7-740b18a7b6e5.jpg",
     trailer: "https://www.youtube.com/embed/nxi6rtBtBM0",
     prices: {
       standard: 11.99,
